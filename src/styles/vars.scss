@@ -1,0 +1,87 @@
+:root {
+  // Extra small devices (less than 768px)
+  // No media query since this is the default
+  --break-xs: 0px;
+  // Medium devices (tablets, 768px and up)
+  --break-sm: 768px;
+  // Large devices (desktops, 1024 and up)
+  --break-md: 1024px;
+  --break-lg: 1200px;
+  // Extra large devices (large desktops, 1440px and up)
+  --break-xl: 1440px;
+  --break-xxl: 1600px;
+
+  /*
+  * 2. Background vars
+  */
+
+  --color-background-body: #f7f7f8;
+  --color-background-base: #fff;
+  --color-background-alt: #ebecf0;
+
+  /*
+  * 3. Text vars
+  */
+
+  --color-text-base: #0e0e10;
+  --color-text-alt: #1f1f23;
+  --color-text-white: #efeff1;
+
+  --font-size-1: 5.4rem;
+  --font-size-2: 3.6rem;
+  --font-size-3: 2.4rem;
+  --font-size-4: 1.8rem;
+  --font-size-5: 1.4rem;
+  --font-size-6: 1.3rem;
+  --font-size-7: 1.2rem;
+  --font-size-8: 1.2rem;
+  --font-size-base: 1.3rem;
+
+  --font-weight-bold: 700;
+  --font-weight-hdr: 400;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+
+  /*
+  * 4. Colors vars
+  */
+
+  --color-primary: #1976d2;
+  --color-primary-darker: #004ba0;
+  --color-accent: #dc004e;
+  --color-accent-darker: #a30027;
+
+  /*
+  * 5. Shadows vars
+  */
+
+  --shadow-elevation-1: 0 1px 2px rgba(0, 0, 0, 0.15),
+    0 0 2px rgba(0, 0, 0, 0.1);
+  --shadow-elevation-2: 0 4px 8px rgba(0, 0, 0, 0.2),
+    0 0 4px rgba(0, 0, 0, 0.05);
+  --shadow-elevation-3: 0 6px 16px rgba(0, 0, 0, 0.2),
+    0 0 4px rgba(0, 0, 0, 0.05);
+  --shadow-elevation-4: 0 12px 32px rgba(0, 0, 0, 0.2),
+    0 0 8px rgba(0, 0, 0, 0.05);
+
+  /*
+  * 6. Border vars
+  */
+
+  --border-radius-large: 1.2rem;
+  --border-radius-medium: 0.8rem;
+  --border-radius-none: 0;
+  --border-radius-rounded: 9000px;
+  --border-radius-small: 0.4rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background-body: #0e0e10;
+    --color-background-base: #18181a;
+    --color-background-alt: #18181a;
+
+    --color-text-base: #efeff1;
+    --color-text-alt: #e9e9e9;
+  }
+}

@@ -1,0 +1,124 @@
+.nui-font-size-1 {
+  font-size: 5.4rem !important;
+  font-size: var(--font-size-1) !important;
+}
+.nui-font-size-2 {
+  font-size: 3.6rem !important;
+  font-size: var(--font-size-2) !important;
+}
+.nui-font-size-3 {
+  font-size: 2.4rem !important;
+  font-size: var(--font-size-3) !important;
+}
+.nui-font-size-4 {
+  font-size: 1.8rem !important;
+  font-size: var(--font-size-4) !important;
+}
+.nui-font-size-5 {
+  font-size: 1.4rem !important;
+  font-size: var(--font-size-5) !important;
+}
+.nui-font-size-6 {
+  font-size: 1.3rem !important;
+  font-size: var(--font-size-6) !important;
+}
+.nui-font-size-7 {
+  font-size: 1.2rem !important;
+  font-size: var(--font-size-7) !important;
+}
+.nui-font-size-8 {
+  font-size: 1.2rem !important;
+  font-size: var(--font-size-8) !important;
+}
+.nui-font-size-base {
+  font-size: 1.3rem !important;
+  font-size: var(--font-size-base) !important;
+}
+
+.nui-regular {
+  font-weight: 400;
+  font-weight: var(--font-weight-normal);
+}
+.nui-semibold,
+.nui-strong {
+  font-weight: 600;
+  font-weight: var(--font-weight-semibold);
+}
+.nui-bold {
+  font-weight: 700;
+  font-weight: var(--font-weight-bold);
+}
+.nui-italic {
+  font-style: italic;
+}
+.nui-underline {
+  text-decoration: underline;
+}
+.nui-strikecase {
+  text-decoration: line-through;
+}
+.nui-upcase {
+  text-transform: uppercase;
+}
+.nui-capcase {
+  text-transform: capitalize;
+}
+
+.nui-text-base {
+  color: var(--color-text-base);
+}
+.nui-text-alt {
+  color: var(--color-text-alt);
+}
+.nui-text-white {
+  color: var(--color-text-white);
+}
+
+.nui-background-body {
+  background-color: var(--color-background-body);
+}
+.nui-background-base {
+  background-color: var(--color-background-base);
+}
+.nui-background-alt {
+  background-color: var(--color-background-alt);
+}
+
+.nui-elevation-1 {
+  box-shadow: var(--shadow-elevation-1);
+}
+.nui-elevation-2 {
+  box-shadow: var(--shadow-elevation-2);
+}
+.nui-elevation-3 {
+  box-shadow: var(--shadow-elevation-3);
+}
+.nui-elevation-4 {
+  box-shadow: var(--shadow-elevation-4);
+}
+
+.nui-border-radius-none {
+  border-radius: var(--border-radius-none);
+}
+.nui-border-radius-small {
+  border-radius: var(--border-radius-small);
+}
+.nui-border-radius-medium {
+  border-radius: var(--border-radius-medium);
+}
+.nui-border-radius-large {
+  border-radius: var(--border-radius-large);
+}
+
+.nui-cursor-default {
+  cursor: default;
+}
+.nui-cursor-auto {
+  cursor: auto;
+}
+.nui-cursor-not-allowed {
+  cursor: not-allowed;
+}
+.nui-cursor-pointer {
+  cursor: pointer;
+}

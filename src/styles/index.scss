@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/*
+* 1. Reduce browser inconsistencies
+* Source: https://gist.github.com/roque363/3742ac45d42e5e48e7af091561d95d49
+*/
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import './reset.scss';
+
+/*
+* 2. Variables
+*/
+
+@import './vars.scss';
+
+/*
+* 3. Common styles
+*/
+
+@import './global.scss';
+
+/*
+* 5. App styles
+*/
+
+@import './projectStyles.scss';
