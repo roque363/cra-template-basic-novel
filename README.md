@@ -1,4 +1,4 @@
-# cra-template
+# cra-template-basic-novel
 
 # A quick start Create React App template
 
@@ -25,6 +25,24 @@ In the project directory, you can run:
 - `npm build` - builds the app for production to the `build` folder.
 
 - `npm eject` - exposes content of `react-script` package
+
+## Folder Structure Conventions
+
+    .
+    ├── build                   # Compiled files, production-ready build.
+    ├── public                  # Static files.
+    ├── src                     # Source files.
+    |   ├── components
+    |   ├── constants
+    |   ├── layouts
+    |   ├── router
+    |   ├── styles
+    |   ├── utils
+    |   └── views
+    ├── .prettierrc
+    ├── .gitignore
+    ├── jsconfig.json
+    └── README.md
 
 ## [Prettier](https://prettier.io/)
 
