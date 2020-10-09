@@ -6,7 +6,6 @@
       "@testing-library/user-event": "^12.1.4",
       "react-router-dom": "^5.2.0",
       "node-sass": "^4.14.1",
-      "web-vitals": "^0.2.4"
     },
     "eslintConfig": {
       "extends": ["react-app", "react-app/jest"]
