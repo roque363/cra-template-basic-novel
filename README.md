@@ -26,7 +26,7 @@ In the project directory, you can run:
 
 - `npm eject` - exposes content of `react-script` package
 
-## Folder Structure Conventions
+## Project Layout
 
     .
     ├── build                   # Compiled files, production-ready build.
