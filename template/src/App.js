@@ -1,8 +1,9 @@
 import React from 'react';
-import Routes from 'router/Routes';
+import RouterConfig from 'navigation/RouterConfig';
+import 'styles/index.scss';
 
 function App() {
-  return <Routes />;
+  return <RouterConfig />;
 }
 
 export default App;
