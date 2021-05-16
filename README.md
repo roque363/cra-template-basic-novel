@@ -32,13 +32,16 @@ In the project directory, you can run:
     ├── build                   # Compiled files, production-ready build.
     ├── public                  # Static files.
     ├── src                     # Source files.
-    |   ├── components
+    |   ├── assets              # All the static assets reside here.
+    |   ├── components          # Only shared components used across features are placed here.
     |   ├── constants
     |   ├── layouts
-    |   ├── router
-    |   ├── styles
-    |   ├── utils
-    |   └── views
+    |   ├── navigation          # The routing logic.
+    |   ├── services            # Services are to manage all api requests.
+    |   ├── styles              # This module holds our application-level styles.
+    |   ├── utils               # Utility/helper methods, validations, etc. that can be shared across our entire project are adde here.
+    |   └── views               # All the various features/screens/pages are defined here.
+    ├── .eslintrc.json
     ├── .prettierrc
     ├── .gitignore
     ├── jsconfig.json
